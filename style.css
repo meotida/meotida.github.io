@@ -1,0 +1,216 @@
+body{
+	font-size: 16px;
+	font-family: Gill Sans Extrabold, sans-serif;
+}
+.row{
+	margin-top: 40px;
+}
+.plate{
+	width: 230px;
+	border: solid 1px grey;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+}
+.product{
+	border: solid 1px grey;
+	position: relative;
+	top: -15px;
+	text-align: center;
+	background-color: #fff;
+	background-image: url(https://cdn.shopify.com/s/files/1/0051/4802/products/Kids_Octocat_Raglan_mock_GithubShop-1_600x600.jpg?v=1563383702);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 200px;
+	transition-duration: 1.5s;
+	transition-delay: 1.5s;
+}
+.product:hover{
+	border: solid 1px grey;
+	position: relative;
+	top: -15px;
+	text-align: center;
+	background-color: #fff;
+	background-image: url(https://cdn.shopify.com/s/files/1/0051/4802/products/Kids_Octocat_Raglan_mock_GithubShop-2_large.jpg?v=1563383704);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 200px;
+	transition-duration: 1.5s;
+	transition-delay: 0s;
+}
+.product, .button, .price{
+	display: flex;
+}
+.product {
+  align-items: center;
+}
+.stiker_new{
+	margin-right: auto;
+	background-color: red;
+}
+.stiker_sale:hover{
+	color: aqua;
+	transition-duration: 1s;
+}
+.stiker_new:hover{
+	color: aqua;
+	transition-duration: 1s;
+}
+.stiker_new, .stiker_sale{
+	padding: 5px 15px;
+	color: white;
+}
+.stiker_sale{
+	background-color: black;
+}
+.button {
+	justify-content: space-between; 
+}
+button{
+	width: 48%;
+	border: 0;
+	padding: 5px;
+	font-weight: bolder;
+}
+button:first-child{
+	color: red;
+	background-color: rgba(255, 0, 0, 0.3); 
+}
+button:last-child{
+	color: grey;
+	background-color: rgba(49, 49, 49, 0.3); 
+}
+button:first-child:hover{
+	color: white;
+	background-color: red; 
+	transition-duration: .5s;
+}
+button:last-child:hover{
+	color: white;
+	background-color: grey;
+	transition-duration: .5s;
+}
+.text{
+	padding-top: 5px;
+	padding-bottom: 15px;	
+}
+.text_detale{
+	font-size: 14px;
+	color: grey;
+}
+.price{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-weight: bolder;
+	vertical-align: middle;
+	align-items: center;
+}
+.price_new{
+	width: 50%;
+	font-size: 20px;
+}
+.price_old{
+	width: 20%;
+	text-decoration: line-through;
+	color: red;
+}
+/**
+https://cdn.shopify.com/s/files/1/0051/4802/products/Kids_Octocat_Raglan_mock_GithubShop-2_large.jpg?v=1563383704
+.row{
+display: flex;
+justify-content: center;
+padding-top: 30px;
+}
+.row>:nth-child(2n){
+margin: auto 30px;
+margin-top: -20px;
+padding-bottom: 40px;
+}
+.row>:nth-child(2n)>.price{
+	font-weight: bold;
+	color: #fff;
+}
+.row>:nth-child(2n)>.product{
+	text-align: center;
+}
+
+.triangle {
+position: fixed;
+	width: 0;
+	height: 0;
+	border-top: 60px solid red; 
+	border-left: 60px solid transparent;	
+}
+.col_1, .col_3{
+height: 420px;
+}
+.row>:nth-child(2n)>.round{
+background-color: red;
+width: 90px;
+height: 90px;
+
+}
+.product{
+background-color: #357dc5;
+height: 60px;
+padding-top: 15px;
+
+}
+.col{
+text-align: center;
+background-color: #f1f1f1;
+}
+.round {
+width: 80px;
+height: 80px;
+border: 2px solid #27527d;
+border-radius: 50%;
+position: relative;
+top: -40px;
+margin: auto;
+background-color: #f1f1f1;
+}
+.price {
+position: relative;
+top: -105px;
+}
+.item{
+background-color:#f1f1f1;
+padding-left: 4px;
+padding-right: 4px;
+}
+
+.item li {
+border-top: 1px solid #cdcdcd;
+margin: 0;
+padding: 6px;
+list-style: none;
+}
+.button{
+vertical-align: middle; 
+padding-top:4px;
+padding-bottom: 15px;
+}
+.item_1::before {
+content: "✱ ";
+}
+.item_2::before {
+content: "☬ ";
+}
+.item_3::before {
+content: "❂ ";
+}
+.item_4::before {
+content: "♡ ";
+}
+.item_5::before {
+content: "♛ ";
+}
+button{
+background-color: #357dc5;
+border-radius: 15%;
+padding: 3px 10px;
+}**/
