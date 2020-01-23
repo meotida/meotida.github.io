@@ -51,11 +51,7 @@ body{
 	margin-right: auto;
 	background-color: red;
 }
-.stiker_sale:hover{
-	color: aqua;
-	transition-duration: 1s;
-}
-.stiker_new:hover{
+.stiker_sale:hover, .stiker_new:hover {
 	color: aqua;
 	transition-duration: 1s;
 }
